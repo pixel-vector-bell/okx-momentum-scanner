@@ -26,7 +26,7 @@ code{color:#7ee787}
 
 <h3>Current candidates (open, ranked by MFE so far)</h3>
 <table><tr><th>Coin</th><th>Family</th><th>Regime</th><th>Pre-run-up</th><th>MFE</th><th>MAE</th><th>+2% vs −1%</th><th>Detected (UTC)</th></tr>
-<tr><td>STRK-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+2.8%</td><td>+5.56%</td><td>-0.15%</td><td>favorable_first</td><td>10-13T01:00</td></tr><tr><td>SKL-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+4.3%</td><td>+4.13%</td><td>-3.42%</td><td>adverse_first</td><td>10-12T23:30</td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+4.2%</td><td>+2.52%</td><td>-5.93%</td><td>adverse_first</td><td>10-12T22:15</td></tr><tr><td>W-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+5.9%</td><td>+2.25%</td><td>-0.97%</td><td>favorable_first</td><td>10-13T01:15</td></tr><tr><td>XDP-USDT</td><td class=fam>F2</td><td>DOWN</td><td>+3.4%</td><td>+1.75%</td><td>-1.07%</td><td>adverse_first</td><td>10-13T00:45</td></tr><tr><td>XDP-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+4.5%</td><td>+0.15%</td><td>-0.94%</td><td>open</td><td>10-13T01:00</td></tr><tr><td>MAGIC-USDT</td><td class=fam>F2</td><td>DOWN</td><td>+8.4%</td><td>+0.14%</td><td>-4.88%</td><td>adverse_first</td><td>10-13T01:15</td></tr><tr><td>USDC-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+0.0%</td><td>+0.00%</td><td>-0.02%</td><td>open</td><td>10-12T23:15</td></tr></table>
+<tr><td>SKL-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+4.3%</td><td>+8.15%</td><td>-3.42%</td><td>adverse_first</td><td>10-12T23:30</td></tr><tr><td>STRK-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+2.8%</td><td>+7.18%</td><td>-0.15%</td><td>favorable_first</td><td>10-13T01:00</td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+4.2%</td><td>+2.76%</td><td>-5.93%</td><td>adverse_first</td><td>10-12T22:15</td></tr><tr><td>W-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+5.9%</td><td>+2.25%</td><td>-0.97%</td><td>favorable_first</td><td>10-13T01:15</td></tr><tr><td>XDP-USDT</td><td class=fam>F2</td><td>DOWN</td><td>+3.4%</td><td>+1.75%</td><td>-1.07%</td><td>adverse_first</td><td>10-13T00:45</td></tr><tr><td>MAGIC-USDT</td><td class=fam>F2</td><td>DOWN</td><td>+8.4%</td><td>+1.55%</td><td>-4.88%</td><td>adverse_first</td><td>10-13T01:15</td></tr><tr><td>XDP-USDT</td><td class=fam>F1</td><td>DOWN</td><td>+4.5%</td><td>+0.15%</td><td>-1.09%</td><td>adverse_first</td><td>10-13T01:00</td></tr><tr><td>USDC-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+0.0%</td><td>+0.00%</td><td>-0.02%</td><td>open</td><td>10-12T23:15</td></tr></table>
 
 <h3>Forward performance by family — P(+2% before −1%) within 4h, with 95% CI</h3>
 <table><tr><th>Family</th><th>n</th><th>P(+2 before −1)</th><th>P(+3 before −1.5)</th><th>P(+5 before −2)</th></tr>
@@ -54,7 +54,7 @@ Entry reference = next-bar open. Each signal is tracked 4h for MFE/MAE and the c
 coin per family per 4h (dedup of the same move). Liquidity + spread gated.
 </div>
 
-<script>var LAST=1791855856493;
+<script>var LAST=1791856001984;
 function tick(){var s=document.getElementById('since');if(!LAST){s.textContent='n/a';return}
 var d=Math.max(0,Date.now()-LAST),t;if(d<60000)t=Math.floor(d/1000)+'s ago';
 else if(d<3600000)t=Math.floor(d/60000)+'m '+Math.floor(d%60000/1000)+'s ago';
