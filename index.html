@@ -19,14 +19,14 @@ code{color:#7ee787}
 
 <div>
 <div class=kpi><b>DOWN</b><span class=lbl>BTC regime</span></div>
-<div class=kpi><b>3</b><span class=lbl>open signals</span></div>
+<div class=kpi><b>4</b><span class=lbl>open signals</span></div>
 <div class=kpi><b>0</b><span class=lbl>completed (4h) signals</span></div>
 <div class=kpi><b>119</b><span class=lbl>pairs scanned</span></div>
 </div>
 
 <h3>Current candidates (open, ranked by MFE so far)</h3>
 <table><tr><th>Coin</th><th>Family</th><th>Regime</th><th>Pre-run-up</th><th>MFE</th><th>MAE</th><th>+2% vs −1%</th><th>Detected (UTC)</th></tr>
-<tr><td>SKL-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+4.3%</td><td>+2.90%</td><td>-3.42%</td><td>adverse_first</td><td>10-12T23:30</td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+4.2%</td><td>+0.23%</td><td>-3.05%</td><td>adverse_first</td><td>10-12T22:15</td></tr><tr><td>USDC-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+0.0%</td><td>+0.00%</td><td>-0.01%</td><td>open</td><td>10-12T23:15</td></tr></table>
+<tr><td>SKL-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+4.3%</td><td>+2.99%</td><td>-3.42%</td><td>adverse_first</td><td>10-12T23:30</td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+4.2%</td><td>+0.23%</td><td>-5.93%</td><td>adverse_first</td><td>10-12T22:15</td></tr><tr><td>USDC-USDT</td><td class=fam>F2</td><td>SIDEWAYS</td><td>+0.0%</td><td>+0.00%</td><td>-0.01%</td><td>open</td><td>10-12T23:15</td></tr><tr><td>XDP-USDT</td><td class=fam>F2</td><td>DOWN</td><td>+3.4%</td><td>+0.00%</td><td>+0.00%</td><td>open</td><td>10-13T00:45</td></tr></table>
 
 <h3>Forward performance by family — P(+2% before −1%) within 4h, with 95% CI</h3>
 <table><tr><th>Family</th><th>n</th><th>P(+2 before −1)</th><th>P(+3 before −1.5)</th><th>P(+5 before −2)</th></tr>
@@ -54,7 +54,7 @@ Entry reference = next-bar open. Each signal is tracked 4h for MFE/MAE and the c
 coin per family per 4h (dedup of the same move). Liquidity + spread gated.
 </div>
 
-<script>var LAST=1791852278818;
+<script>var LAST=1791852411136;
 function tick(){var s=document.getElementById('since');if(!LAST){s.textContent='n/a';return}
 var d=Math.max(0,Date.now()-LAST),t;if(d<60000)t=Math.floor(d/1000)+'s ago';
 else if(d<3600000)t=Math.floor(d/60000)+'m '+Math.floor(d%60000/1000)+'s ago';
