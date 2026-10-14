@@ -20,14 +20,14 @@ code{color:#7ee787}
 
 <div>
 <div class=kpi><b>SIDEWAYS</b><span class=lbl>BTC regime</span></div>
-<div class=kpi><b>6</b><span class=lbl>open signals</span></div>
-<div class=kpi><b>74</b><span class=lbl>completed (4h) signals</span></div>
+<div class=kpi><b>5</b><span class=lbl>open signals</span></div>
+<div class=kpi><b>75</b><span class=lbl>completed (4h) signals</span></div>
 <div class=kpi><b>119</b><span class=lbl>pairs scanned</span></div>
 </div>
 
 <h3>Current candidates (open, most-recently detected first)</h3>
 <table><tr><th>Coin</th><th>Family</th><th>Regime</th><th>Pre-run-up</th><th>MFE</th><th>MAE</th><th>+2% vs −1%</th><th>Detected (UTC / Mountain)</th><th>Age / drop-off</th></tr>
-<tr><td>BAT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+7.2%</td><td>+1.92%</td><td>-3.52%</td><td>adverse_first</td><td>10-14 04:45 UTC<br><span class=mt>10-13 22:45 MDT</span></td><td>2h01m<br><span class=mt>drops in 2h14m</span></td></tr><tr><td>SD-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+6.3%</td><td>+0.00%</td><td>-7.03%</td><td>adverse_first</td><td>10-14 04:45 UTC<br><span class=mt>10-13 22:45 MDT</span></td><td>2h01m<br><span class=mt>drops in 2h14m</span></td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+8.5%</td><td>+3.24%</td><td>-0.51%</td><td>favorable_first</td><td>10-14 04:00 UTC<br><span class=mt>10-13 22:00 MDT</span></td><td>2h46m<br><span class=mt>drops in 1h29m</span></td></tr><tr><td>PYTH-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+5.1%</td><td>+0.06%</td><td>-3.64%</td><td>adverse_first</td><td>10-14 04:00 UTC<br><span class=mt>10-13 22:00 MDT</span></td><td>2h46m<br><span class=mt>drops in 1h29m</span></td></tr><tr><td>ZEC-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+3.2%</td><td>+0.38%</td><td>-2.18%</td><td>adverse_first</td><td>10-14 02:30 UTC<br><span class=mt>10-13 20:30 MDT</span></td><td>4h16m<br><span class=mt>closing…</span></td></tr><tr><td>XKORU-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+5.8%</td><td>+1.43%</td><td>-2.21%</td><td>adverse_first</td><td>10-13 05:15 UTC<br><span class=mt>10-12 23:15 MDT</span></td><td>25h31m<br><span class=mt>closing…</span></td></tr></table>
+<tr><td>BAT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+7.2%</td><td>+1.92%</td><td>-4.31%</td><td>adverse_first</td><td>10-14 04:45 UTC<br><span class=mt>10-13 22:45 MDT</span></td><td>2h02m<br><span class=mt>drops in 2h13m</span></td></tr><tr><td>SD-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+6.3%</td><td>+0.00%</td><td>-7.50%</td><td>adverse_first</td><td>10-14 04:45 UTC<br><span class=mt>10-13 22:45 MDT</span></td><td>2h02m<br><span class=mt>drops in 2h13m</span></td></tr><tr><td>CT-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+8.5%</td><td>+3.61%</td><td>-0.51%</td><td>favorable_first</td><td>10-14 04:00 UTC<br><span class=mt>10-13 22:00 MDT</span></td><td>2h47m<br><span class=mt>drops in 1h28m</span></td></tr><tr><td>PYTH-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+5.1%</td><td>+0.06%</td><td>-3.74%</td><td>adverse_first</td><td>10-14 04:00 UTC<br><span class=mt>10-13 22:00 MDT</span></td><td>2h47m<br><span class=mt>drops in 1h28m</span></td></tr><tr><td>XKORU-USDT</td><td class=fam>F1</td><td>SIDEWAYS</td><td>+5.8%</td><td>+1.43%</td><td>-2.21%</td><td>adverse_first</td><td>10-13 05:15 UTC<br><span class=mt>10-12 23:15 MDT</span></td><td>25h32m<br><span class=mt>closing…</span></td></tr></table>
 <div class=sub>Each signal is tracked forward for a fixed <b>4-hour window</b> (16 × 15-minute bars) from
 detection — that is the span over which the entry's edge is measured. When the 4h elapses the signal
 is finalized (its +2%/−1% race outcome is recorded) and it <b>drops off this open list automatically</b>,
@@ -36,14 +36,14 @@ it means its observation window closed. The "Age / drop-off" column shows how lo
 
 <h3>Forward performance by family — P(+2% before −1%) within 4h, with 95% CI</h3>
 <table><tr><th>Family</th><th>n</th><th>P(+2 before −1)</th><th>P(+3 before −1.5)</th><th>P(+5 before −2)</th></tr>
-<tr><td>F1 relative-strength</td><td>57</td><td>42.1% <span class=ci>[30.2–55.0]</span></td><td>33.3%</td><td>17.5%</td></tr>
+<tr><td>F1 relative-strength</td><td>58</td><td>41.4% <span class=ci>[29.6–54.2]</span></td><td>32.8%</td><td>17.2%</td></tr>
 <tr><td>F2 top-gainer accel+pullback</td><td>17</td><td>17.6% <span class=ci>[6.2–41.0]</span></td><td>5.9%</td><td>17.6%</td></tr>
-<tr><td><i>ALL signals</i></td><td>74</td><td>36.5% <span class=ci>[26.4–47.9]</span></td><td>27.0%</td><td>17.6%</td></tr>
+<tr><td><i>ALL signals</i></td><td>75</td><td>36.0% <span class=ci>[26.1–47.3]</span></td><td>26.7%</td><td>17.3%</td></tr>
 </table>
 
 <h3>By BTC regime (does UP materially help? — forward, both families pooled)</h3>
 <table><tr><th>Regime</th><th>n</th><th>P(+2 before −1)</th><th>P(+3 before −1.5)</th><th>P(+5 before −2)</th></tr>
-<tr><td><b>UP</b></td><td>9</td><td>33.3% <span class=ci>[12.1–64.6]</span></td><td>33.3%</td><td>22.2%</td></tr><tr><td><b>SIDEWAYS</b></td><td>58</td><td>37.9% <span class=ci>[26.6–50.8]</span></td><td>25.9%</td><td>17.2%</td></tr><tr><td><b>DOWN</b></td><td>7</td><td>28.6% <span class=ci>[8.2–64.1]</span></td><td>28.6%</td><td>14.3%</td></tr></table>
+<tr><td><b>UP</b></td><td>9</td><td>33.3% <span class=ci>[12.1–64.6]</span></td><td>33.3%</td><td>22.2%</td></tr><tr><td><b>SIDEWAYS</b></td><td>59</td><td>37.3% <span class=ci>[26.1–50.0]</span></td><td>25.4%</td><td>16.9%</td></tr><tr><td><b>DOWN</b></td><td>7</td><td>28.6% <span class=ci>[8.2–64.1]</span></td><td>28.6%</td><td>14.3%</td></tr></table>
 <div class=sub>Matched-random baseline for P(+2% before −1%) from DEV research ≈ 14–20%. A family/regime
 beats random only when its CI sits clearly above that band. Forward CIs widen until enough
 completed signals accumulate — small n = not yet conclusive.</div>
@@ -62,7 +62,7 @@ coin per family per 4h (dedup of the same move). Liquidity + spread gated.
 
 
 <h2 style="margin-top:30px">💵 Paper Trading — 4 exit models on identical frozen entries</h2>
-<div class=sub>Forward paper only · no real orders · activated 2026-10-13 02:53Z · paper tick 06:45:53Z · 3 coins priced · all prices fresh</div>
+<div class=sub>Forward paper only · no real orders · activated 2026-10-13 02:53Z · paper tick 06:46:52Z · 3 coins priced · all prices fresh</div>
 <div><div class=kpi><b>2,867</b><span class=lbl>A · Fixed trail</span><span class=lbl style='color:#f85149'>-4.45%</span></div><div class=kpi><b>2,862</b><span class=lbl>B · Progressive</span><span class=lbl style='color:#f85149'>-4.61%</span></div><div class=kpi><b>2,834</b><span class=lbl>C · Partial+prog</span><span class=lbl style='color:#f85149'>-5.55%</span></div><div class=kpi><b>3,114</b><span class=lbl>D · Vol-adjusted</span><span class=lbl style='color:#3fb950'>+3.80%</span></div></div>
 
 <h3>Capital-constrained portfolios ($3,000 · max 3 slots · $1,000/slot)</h3>
@@ -96,7 +96,7 @@ missed entries when full; the matched layer takes every signal to isolate exit q
 </div>
 
 
-<script>var LAST=1791960289289;
+<script>var LAST=1791960426984;
 function tick(){var s=document.getElementById('since');if(!LAST){s.textContent='n/a';return}
 var d=Math.max(0,Date.now()-LAST),t;if(d<60000)t=Math.floor(d/1000)+'s ago';
 else if(d<3600000)t=Math.floor(d/60000)+'m '+Math.floor(d%60000/1000)+'s ago';
